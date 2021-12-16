@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="request.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="stu_name" id="name" required placeholder="Mg Mg">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="text" email="stu_email" id="email" required placeholder="asd@gmail.com">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="stu_password" id="password">
+        <br><br>
+        <label for="phone">Phone No.</label>
+        <input type="number" name="stu_phone" id="phone">
+        <br><br>
+        <label for="passport">passport</label>
+        <input type="file" name="stu_passport" accept=".image" id="passport">
+        <br><br>
+        <label for="Gender">Gender</label>
+        <input type="radio" name="stu_Gender" id="Gender" value="male"><label for="male">male</label>
+        <input type="radio" name="stu_Gender" id="Gender" value="female"><label for="female">female</label>
+        <input type="radio" name="stu_Gender" id="Gender" value="other"><label for="other">other</label>
+        <br><br>
+        <label for="hobby">Hobby</label>
+        <input type="checkbox" name="stu_hobby" value="travelling" id="hobby"><label for="travelling">travelling</label>
+        <input type="checkbox" name="stu_hobby" value="game" id="hobby"><label for="game">Video Game</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="stu_name" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+        
+    </form>
+
+</body>
+</html>
